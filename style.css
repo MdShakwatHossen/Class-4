@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(134, 235, 235);
+}
+h1 {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-transform: capitalize;
+  font-size: 55px;
+  text-decoration-thickness: 5px;
+  font-weight: 500;
+}
+h1 span {
+  color: green;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+  word-spacing: 5px;
+  font-weight: 300;
+}
+p::first-letter {
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+}
